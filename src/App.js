@@ -29,7 +29,7 @@ const testData = [
 const CardList = (props) => (
   <div>
     {props.profiles.map((profile) => (
-      <Cards {...profile} key={profile.id | Math.random()} />
+      <Cards {...profile} key={profile.id || Math.random()} />
     ))}
   </div>
 );
@@ -63,7 +63,7 @@ class Form extends React.Component {
         return response.data;
       })
       .catch(() => {
-        return {};
+        return null;
       });
     this.props.onSubmitForm(response);
     this.setState({ userInput: "" });
@@ -87,7 +87,7 @@ class App extends React.Component {
   };
 
   addNewUser = (data) => {
-    if (data.length) {
+    if (data) {
       this.setState((prevState) => ({
         profiles: [...prevState.profiles, data],
       }));
