@@ -37,6 +37,7 @@
 }
 
 .add-form {
+  height: 35px;
   background-color: #61dafb;
   padding: 10px;
   margin-bottom: 10px;
@@ -44,6 +45,11 @@
   justify-content: center;
 }
 
+.add-form input {
+  border: 0;
+}
+
 .add-form button {
   margin-left: 5px;
+  border: 0;
 }
