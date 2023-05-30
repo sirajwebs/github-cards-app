@@ -1,0 +1,49 @@
+.app {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+}
+
+.app-header {
+  text-align: center;
+  font-size: 2rem;
+  padding: 50px 0;
+  color: #61dafb;
+}
+
+.github-profile {
+  margin: 1rem;
+  display: inline-flex;
+  padding: 20px;
+  border: 1px solid #61dafb;
+
+  .info {
+    display: inline-block;
+    margin-left: 15px;
+    text-align: left;
+  }
+
+  .name {
+    font-size: 1.25rem;
+    font-weight: bolder;
+  }
+
+  .location {
+    margin-top: 10px;
+    font-size: small;
+    color: #61dafb;
+  }
+}
+
+.add-form {
+  background-color: #61dafb;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.add-form button {
+  margin-left: 5px;
+}
