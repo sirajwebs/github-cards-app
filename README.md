@@ -1,3 +1,19 @@
+# GitHub Cards App <a style="font-size:20px" href="https://github-cards-app-react.web.app/">(live demo)</a>
+
+<p align="center">
+    <img src="public/homepage.png" width="400" height="auto">
+</p>
+
+A simple demo app to start with React.js that shows the user data of GitHub when searched and added.
+
+Application is compatible with all screen sizes mobile, tablet, desktop.
+With cross browser compatibility like Chrome, Edge, Firefox, Safari.
+
+## View live demo at :
+https://github-cards-app-react.web.app/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
